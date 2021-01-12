@@ -1,12 +1,14 @@
 Source: signald
 Section: java
 Priority: optional
-Maintainer: Finn Herzfeld <signald@janky.solutions>
+Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://signald.org
-Vcs-Git: https://git.callpipe.com/finn/signald.git
-Vcs-Browser: https://git.callpipe.com/finn/signald
+Vcs-Git: https://github.com/maemo-leste-extras/signald
+Vcs-Browser: https://github.com/maemo-leste-extras/signald
+#Vcs-Git: https://git.callpipe.com/finn/signald.git
+#Vcs-Browser: https://git.callpipe.com/finn/signald
 #Vcs-Git: https://anonscm.debian.org/collab-maint/signald.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/signald.git
 
