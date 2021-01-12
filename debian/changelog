@@ -1,3 +1,9 @@
+signald (0.2.0-1) unstable; urgency=medium
+
+  * Add gbp.conf and update maintainer entry.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Jan 2021 15:49:25 +0100
+
 signald (0.2.0) unstable; urgency=medium
 
   * Initial Release.
