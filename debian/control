@@ -2,7 +2,11 @@ Source: signald
 Section: user/network
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
-Build-Depends: debhelper (>= 9), javahelper, default-jre
+Build-Depends:
+ debhelper (>= 9),
+ javahelper,
+ default-jre-headless,
+ default-jdk-headless,
 Standards-Version: 3.9.8
 Homepage: https://signald.org
 Vcs-Git: https://github.com/maemo-leste-extras/signald
