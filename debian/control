@@ -2,7 +2,7 @@ Source: signald
 Section: java
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), javahelper
 Standards-Version: 3.9.8
 Homepage: https://signald.org
 Vcs-Git: https://github.com/maemo-leste-extras/signald
