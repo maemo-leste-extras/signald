@@ -8,8 +8,8 @@ export DH_VERBOSE=1
 
 override_dh_auto_build:
 	# dh_auto_build -- installDist
-	HOME=$(CURDIR)/debian/home ./gradlew installDist
-	HOME=$(CURDIR)/debian/home \
+	GRADLE_USER_HOME=$(CURDIR)/debian/home ./gradlew installDist
+	GRADLE_USER_HOME=$(CURDIR)/debian/home \
 		./tools/repackage-zkgroup.sh zkgroup/target/release/libzkgroup.so $(zkgroup_ver)
 
 override_dh_install:
