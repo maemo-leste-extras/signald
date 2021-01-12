@@ -1,0 +1,21 @@
+#!/sbin/openrc-run
+name="$RC_SVCNAME"
+description="A daemon for interacting with the Signal Private Messenger"
+command="/usr/bin/signald"
+command_args="-d /var/lib/signald"
+command_background="yes"
+pidfile="/run/signald.pid"
+command_user="signald"
+
+depend() {
+	need networking dbus
+}
+
+start_pre() {
+	mkdir -p /var/run/signald
+	chown "${command_user}:${command_user}" /var/run/signald
+}
+
+stop () {
+	kill "$(cat "$pidfile")"
+}
