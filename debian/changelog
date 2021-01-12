@@ -1,3 +1,13 @@
+signald (0.7.1-1) unstable; urgency=medium
+
+  * Build with native libzkgroup.
+  * Add OpenRC initscript.
+  * Use headless java dependencies.
+  * Change Section to user/network.
+  * Be explicit in zkgroup version.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Jan 2021 20:06:02 +0100
+
 signald (0.7.0-1) unstable; urgency=medium
 
   * Add gbp.conf and update maintainer entry.
