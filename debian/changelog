@@ -1,4 +1,4 @@
-signald (0.2.0-1) unstable; urgency=medium
+signald (0.7.0-1) unstable; urgency=medium
 
   * Add gbp.conf and update maintainer entry.
 
